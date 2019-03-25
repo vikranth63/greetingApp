@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class GreetimgController {
 	
-	@RequestMapping("/gtGreeting")
+	@RequestMapping("/getGreeting")
 	public String getGreeting() {
 		
-		return "Hello AWS";
+		return "Hello AWS_CICD_Pipelines";
 	}
 
 }
