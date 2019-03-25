@@ -11,12 +11,17 @@ public class GreetingController {
 	@RequestMapping("/getGreeting")
 	public String getGreeting() {
 		
-		return "Hello AWS_CICD_Pipelines";
+		return "----Hello AWS_CICD_Pipelines----";
 	}
 	
 	@RequestMapping("/getDate")
 	public String getDate() {
 		return new Date().toString();
+	}
+	
+	@RequestMapping("/getName")
+	public String getName() {
+		return "XXX";
 	}
 
 }
